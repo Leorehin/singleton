@@ -12,7 +12,11 @@ public class Teste {
         robo.mover();
 
         robo.setComportamento(defensivo);
-        
+
+        robo.mover();
+
+        robo.setComportamento(agressivo);
+
         robo.mover();
 
     }
